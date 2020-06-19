@@ -349,7 +349,56 @@ div.menu-movil span {
 div.menu-movil:hover {
   cursor: pointer;
 }
-div.menu-movil:hover {
+
+@media only screen and (min-width:468px) {
+  div.imagen {
+    width: 100%;
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+}
+
+
+@media only screen and (min-width:768px){
+  div.imagen {
+    width: 100%;
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  div.imagen {
+   max-width: auto;
+  }
+
+}
+@media only screen and (min-width:768px) {
+   div.imagen {
+    width: 100%;
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+}
+
+
+
+@media only screen and (min-width:996px) {
+  div.imagen {
+    width: 100%;
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
 
 }
 
@@ -452,7 +501,7 @@ div.menu-movil:hover {
 }
 .img {
   max-width: 100%;
-  justify-content: space-between;
+  justify-content:50%;
 }
 
 
@@ -650,6 +699,8 @@ height: 100%;
   justify-content: center;
   align-items: center;
 }
+
+
  
 .imagen a {
   color: #ffffff;
@@ -721,6 +772,19 @@ h2 {
 
 }
 
+
+
+
+
+div.container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+  }
+  img {
+  width: 100%;
+  height: auto;
+  }
 
 
 
