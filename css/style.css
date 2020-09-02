@@ -1,0 +1,138 @@
+
+html{
+  font-size: 15px;
+}
+
+/*SECCION BIENVENIDOS*/
+.Bienvenidos {
+  background: url("../imagenes/descarga1.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+/*SECCION BODY*/
+body {
+  margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f3f5f7;
+    text-align: left;
+    background-color: #fff;
+}
+
+.navbar-fixed-top {
+  background: rgba(0, 0, 0, 0.55)
+}
+.navbar-light .navbar-brand {
+  color: rgba(240, 25, 25, 0.952);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgb(206 69 69 / 90%);
+}
+.navbar-toggler {
+  font-size: 1.35rem;
+  background-color: rgba(240, 25, 25, 0.952)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: rgb(241 233 233 / 90%);
+  background-color:rgba(240, 25, 25, 0.952);
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(255 75 75 / 98%);
+}
+.btn-primary {
+  color: #fff;
+  background-color: #bd1a00;
+  border-color: rgba(240, 25, 25, 0.952);  
+  transition: all .5s ease-in;
+  
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(240, 25, 25, 0.952);
+  border-color: rgba(240, 25, 25, 0.952);
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(240, 25, 25, 0.952);
+  border-color: rgba(240, 25, 25, 0.952);
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+  background-color: #6c757d;
+}
+.col-md-4{
+  color: black;
+}
+
+#menuprincipal {
+  clear:both;
+}
+
+body {
+  background: white; }
+
+
+  .texto-bienvenido {
+    color: rgb(248, 244, 244);
+    margin-top: 6rem;
+  }
+
+
+/* SECCION PROYECTOS*/
+  h3, .h3 {
+    font-size: 1.75rem;
+    background-color: #6c757d;
+    text-align: center;
+}
+.ultimos-proyectos {
+  background: black;
+}
+.ultimos-proyectos img{
+  transition: all .3s ease;
+  min-width: 100%;
+}
+.ultimos-proyectos a{
+display: block;
+overflow: hidden;
+margin-bottom: 1.4rem;
+}
+.ultimos-proyectos a:hover img {
+
+  transform: scale(1.3);
+}
+
+
+
+/*estilo bloque quienes somos*/
+.quienes-somos {
+  background: rgba(240, 25, 25, 0.952);
+}
+/*estilo bloque servicios*/
+
+.servicios .fa {
+    color:red;
+    font-size: 3.5rem;
+}
+/*FOOTER*/
+.footer {
+  background: red;
+  margin-top: 2rem;
+}
+
+/*MEDIAS QUERYES*/
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
